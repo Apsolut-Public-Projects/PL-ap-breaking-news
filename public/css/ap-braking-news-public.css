@@ -1,0 +1,57 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+#abpn-container.apbn-container {
+    position: relative;
+    width: 100%;
+    max-width: 100% !important;
+    background-color: #dc0000;
+    text-align: center;
+}
+#abpn-container .single-breaking-news {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    font-size: 18px;
+    line-height: 1;
+    padding: 10px 15px;
+    color: #fff;
+}
+@media only screen and (max-width: 767px) {
+    #abpn-container .single-breaking-news {
+        font-size: 15px;
+    }
+}
+#abpn-container .single-breaking-news .apbn-hint {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-right: 10px;
+}
+#abpn-container .single-breaking-news .apbn-hint .name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#abpn-container .single-breaking-news .apbn-hint svg {
+    margin-right: 5px;
+}
+#abpn-container .single-breaking-news .apbn-title {
+    font-weight: normal;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#abpn-container .single-breaking-news .apbn-title a {
+    text-decoration: none;
+}
+#abpn-container .single-breaking-news .apbn-title a:hover {
+    opacity: 0.9;
+}

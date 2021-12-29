@@ -1,0 +1,17 @@
+node_modules
+.DS_Store
+desktop.ini
+etc
+babel
+.env
+.idea/
+idea/
+package-lock.json
+bower.json
+
+# Extras / Local things
+wpcs/
+/vendor/wp-coding-standards
+/vendor/squizlabs
+/vendor/bin
+/vendor/wpcs

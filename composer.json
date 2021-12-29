@@ -1,0 +1,27 @@
+{
+    "authors": [
+        {
+            "name": "Aleksandar Perisic",
+            "email": "hi@aleksandarperisic.com",
+            "homepage": "https://aleksandarperisic.com/",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        }
+    ],
+    "require": {
+        "htmlburger/carbon-fields-plugin": "^3.3"
+    },
+
+    "extra": {
+        "installer-paths": {
+            "vendor/{$name}/": [
+                "type:wordpress-plugin"
+            ]
+        }
+    }
+}
